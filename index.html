@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - e-BDT</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            /* === Cores do Tema e-BDT === */
+            background-color: #0e273e; /* _backgroundColor */
+            color: #F1F5F9; /* _primaryTextColor */
+        }
+        .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo-container img {
+            max-width: 200px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
+        }
+        h1 {
+            /* === Cores do Tema e-BDT === */
+            color: #f08f20; /* _borderColor */
+            border-bottom: 1px solid #f08f20; /* _borderColor */
+            text-align: center;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            /* === Cores do Tema e-BDT === */
+            color: #66c73f; /* _accentColor */
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #15324c; /* _inputFillColor como borda sutil */
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            /* === Cores do Tema e-BDT === */
+            color: #f08f20; /* _borderColor */
+            font-weight: bold;
+        }
+        a { /* Estilo para links futuros */
+           color: #66c73f; /* _accentColor */
+           text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .last-updated {
+            text-align: center;
+            font-size: 0.9em;
+            /* === Cores do Tema e-BDT === */
+            color: #b0bec5; /* Um cinza claro para contraste */
+            margin-bottom: 25px;
+        }
+        .contact-info {
+            margin-top: 25px;
+            padding: 15px;
+            /* === Cores do Tema e-BDT === */
+            background-color: #15324c; /* _inputFillColor */
+            border-radius: 5px;
+            border-left: 5px solid #f08f20; /* _borderColor */
+        }
+        .contact-info p {
+           margin-bottom: 5px; /* Menor margem dentro da caixa */
+        }
+         /* Garante que sub-listas também tenham a cor correta */
+        ul ul {
+            margin-top: 8px;
+        }
+        ul ul li {
+            font-size: 0.95em; /* Levemente menor para diferenciar */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="ebdt_logo.png" alt="Logo e-BDT">
+    </div>
+
+    <h1>Política de Privacidade do e-BDT</h1>
+
+    <p class="last-updated">
+        <strong>Última atualização:</strong> 27 de Outubro de 2025
+    </p>
+
+    <p>Bem-vindo à Política de Privacidade do aplicativo e-BDT ("Aplicativo"). Sua privacidade é importante para nós. Esta política explica como coletamos, usamos, compartilhamos e protegemos suas informações pessoais quando você utiliza nosso aplicativo móvel.</p>
+
+    <h2>1. Informações que Coletamos</h2>
+    <p>Para fornecer e melhorar os serviços do e-BDT, coletamos os seguintes tipos de informações:</p>
+    <ul>
+        <li><strong>Informações de Identificação Pessoal:</strong> Nome, matrícula (ou outro identificador de login), informações da CNH (número, validade, categoria - fornecidas no cadastro ou perfil).</li>
+        <li><strong>Informações da Empresa:</strong> Código da empresa, nome da empresa, configurações de API e tema (cores, logos).</li>
+        <li><strong>Dados de Localização:</strong> Coordenadas GPS (latitude, longitude), velocidade, direção e timestamp. <strong>Importante:</strong> A coleta de dados de localização ocorre <strong>apenas</strong> enquanto um Boletim Diário de Transporte (BDT) estiver ativo e o serviço de rastreamento em segundo plano estiver em execução.</li>
+        <li><strong>Dados do Veículo:</strong> Identificação do veículo (ID, placa, modelo), quilometragem (inicial, final e em paradas), nível de combustível (inicial e final).</li>
+        <li><strong>Dados da Jornada (BDT):</strong> Horários de início e fim da jornada, detalhes das paradas (endereço, título, horários de chegada/partida, KM na chegada, status), distância percorrida, informações sobre pernoite, rotas percorridas (sequência de pontos GPS).</li>
+        <li><strong>Fotos e Mídia:</strong> Fotos de avarias do veículo (checklist inicial e finalização), fotos de comprovantes de abastecimento, fotos de comprovantes de despesas, fotos anexadas a relatórios de problemas.</li>
+        <li><strong>Dados de Despesas:</strong> Tipo de despesa, valor, data/hora, comprovante associado.</li>
+        <li><strong>Relatórios de Problemas:</strong> Categoria do problema, descrição, data/hora, foto associada (opcional).</li>
+        <li><strong>Comunicações:</strong> Mensagens e comunicados enviados pela Central/Gerência através do aplicativo.</li>
+        <li><strong>Credenciais de Acesso:</strong> Login e senha (são enviados diretamente para a API de autenticação da sua empresa e não armazenados por nós, exceto se você optar por salvar para login biométrico) e dados biométricos (gerenciados pelo sistema operacional do seu dispositivo e armazenados localmente de forma segura se habilitado).</li>
+        <li><strong>Informações do Dispositivo:</strong> Token de notificação push (FCM) para envio de Ordens de Serviço e Comunicados, informações básicas do dispositivo (modelo, sistema operacional) podem ser coletadas para fins de diagnóstico (ex: via Crashlytics).</li>
+        <li><strong>Dados de Uso (Potencial):</strong> Interações com o aplicativo (toques em botões, telas visitadas) podem ser coletadas de forma anônima para melhorar a usabilidade e identificar problemas.</li>
+    </ul>
+
+    <h2>2. Como Usamos Suas Informações</h2>
+    <p>Utilizamos as informações coletadas para os seguintes propósitos:</p>
+    <ul>
+        <li><strong>Operação do Serviço:</strong> Autenticar seu acesso, registrar e automatizar o preenchimento do BDT, calcular distâncias, monitorar a jornada de trabalho conforme exigido pela sua empresa.</li>
+        <li><strong>Comunicação:</strong> Enviar Ordens de Serviço, comunicados da gerência e notificações relevantes sobre a operação.</li>
+        <li><strong>Segurança e Conformidade:</strong> Registrar condições do veículo (checklist, avarias), documentar despesas, permitir o acionamento de alertas de segurança (Painel de Segurança) e cumprir requisitos operacionais e legais da sua empresa.</li>
+        <li><strong>Melhoria do Aplicativo:</strong> Analisar dados de uso (de forma anônima ou agregada) para identificar problemas, melhorar a interface e desenvolver novas funcionalidades.</li>
+        <li><strong>Suporte:</strong> Auxiliar na resolução de problemas técnicos ou operacionais que você possa reportar.</li>
+    </ul>
+
+    <h2>3. Compartilhamento de Informações</h2>
+    <p>Suas informações são compartilhadas principalmente com:</p>
+    <ul>
+        <li><strong>Sua Empresa Empregadora:</strong> A finalidade principal do e-BDT é fornecer dados operacionais para a empresa que você trabalha. Todos os dados coletados durante sua jornada (localização, paradas, checklists, fotos, etc.) são enviados e ficam disponíveis para a Central de Operações da sua empresa.</li>
+        <li><strong>Prestadores de Serviço Terceirizados:</strong> Utilizamos alguns serviços de terceiros para funcionalidades essenciais:
+            <ul>
+                <li>Firebase (Google): Para notificações push (FCM), análise de erros (Crashlytics) e funcionalidades do modo de demonstração (Firestore).</li>
+                <li>Google Maps Platform: Para exibir mapas, converter endereços em coordenadas (geocodificação), calcular rotas e otimizar trajetos.</li>
+                </ul>
+            <p>Estes prestadores têm acesso limitado às suas informações apenas para realizar tarefas em nosso nome e são obrigados a não divulgá-las ou usá-las para outros fins. Recomendamos consultar as políticas de privacidade desses serviços.</p>
+        </li>
+        <li><strong>Obrigações Legais:</strong> Poderemos divulgar suas informações se exigido por lei, processo legal ou solicitação governamental válida.</li>
+    </ul>
+
+    <h2>4. Armazenamento e Segurança de Dados</h2>
+    <p>Implementamos medidas de segurança técnicas e organizacionais para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição.</p>
+    <ul>
+        <li><strong>Armazenamento Local:</strong> Dados da sessão ativa, configurações, histórico de BDTs, fila de sincronização e preferências são armazenados no seu dispositivo usando SharedPreferences, Armazenamento Seguro (para dados sensíveis como credenciais biométricas e token de API) e SQFlite. O armazenamento é isolado por empresa quando aplicável.</li>
+        <li><strong>Armazenamento em Nuvem:</strong> Os dados finalizados do BDT, relatórios de problemas e atualizações de localização são enviados para os servidores da sua empresa empregadora. Configurações de empresa são buscadas de um servidor central (Maestro).</li>
+        <li><strong>Criptografia:</strong> Dados sensíveis armazenados localmente (credenciais) são criptografados. A comunicação com as APIs utiliza HTTPS.</li>
+    </ul>
+    <p>Apesar de nossos esforços, nenhum sistema de segurança é impenetrável. Não podemos garantir a segurança absoluta das suas informações.</p>
+
+    <h2>5. Dados de Localização em Segundo Plano</h2>
+    <p>O e-BDT coleta dados de localização em segundo plano <strong>exclusivamente</strong> enquanto um BDT está ativo. Isso é essencial para automatizar o registro de trajetos e paradas, calcular distâncias e permitir a detecção automática de chegada (geofencing), mesmo quando o aplicativo não está visível na tela ou o dispositivo está bloqueado.</p>
+    <p>Uma notificação persistente será exibida enquanto o rastreamento estiver ativo, informando sobre a coleta de dados em segundo plano, conforme exigido pelas políticas das plataformas móveis.</p>
+    <p>O rastreamento de localização <strong>cessa completamente</strong> assim que o BDT é finalizado ou o serviço de background é interrompido.</p>
+
+    <h2>6. Seus Direitos e Escolhas</h2>
+    <p>Você tem certos direitos em relação às suas informações pessoais:</p>
+    <ul>
+        <li><strong>Acesso e Correção:</strong> Você pode visualizar e editar algumas informações diretamente no aplicativo (ex: perfil, destinos salvos). Para outras informações ou correções, entre em contato com o administrador do sistema na sua empresa.</li>
+        <li><strong>Gerenciamento de Preferências:</strong> Você pode gerenciar certas preferências (sons, navegação automática, login biométrico) na tela de Configurações do aplicativo.</li>
+        <li><strong>Exclusão de Dados:</strong> A exclusão de dados de BDT geralmente está sujeita às políticas de retenção de dados da sua empresa e a obrigações legais. Solicitações de exclusão devem ser direcionadas ao seu empregador.</li>
+        <li><strong>Permissões:</strong> Você pode gerenciar as permissões concedidas ao aplicativo (localização, câmera, notificações) nas configurações do seu dispositivo a qualquer momento, embora a revogação de permissões essenciais possa impedir o funcionamento do aplicativo.</li>
+    </ul>
+
+    <h2>7. Retenção de Dados</h2>
+    <p>Reteremos suas informações pessoais pelo tempo necessário para cumprir os propósitos descritos nesta política, para cumprir as obrigações contratuais com sua empresa empregadora e conforme exigido pelas leis e regulamentos aplicáveis.</p>
+    <p>O histórico de BDTs finalizados armazenado localmente no seu dispositivo pode ser gerenciado ou limpo por você, mas isso não afeta os dados já enviados para a Central da sua empresa.</p>
+
+    <h2>8. Privacidade Infantil</h2>
+    <p>O aplicativo e-BDT não se destina a menores de 18 anos e não coletamos intencionalmente informações pessoais de crianças.</p>
+
+    <h2>9. Alterações nesta Política de Privacidade</h2>
+    <p>Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos sobre quaisquer alterações significativas publicando a nova política no aplicativo ou através de outros meios de comunicação. Recomendamos revisar esta política regularmente.</p>
+
+    <h2>10. Contato</h2>
+    <div class="contact-info">
+        <p>Se você tiver dúvidas sobre esta Política de Privacidade ou sobre as práticas de dados do e-BDT, entre em contato com o administrador do sistema na sua empresa ou utilize o seguinte canal:</p>
+        <p><strong>Email:</strong> byteflowstudios@gmail.com</p>
+    </div>
+
+</body>
+</html>
